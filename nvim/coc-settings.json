@@ -1,0 +1,17 @@
+{
+  "diagnostic.errorSign": "⛑",
+  "diagnostic.warningSign": "🚧",
+  "diagnostic.infoSign": "🧾",
+  "diagnostic.hintSign": "🧐",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "graphql",
+    "elixir",
+    "eelixir"
+  ]
+}
