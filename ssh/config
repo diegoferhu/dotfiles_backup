@@ -1,0 +1,40 @@
+# gitWork -->Legacy
+Host work
+	HostName github.com
+	User git
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa_work
+	
+# gitWorkEmu
+Host work_emu
+	HostName github.com
+	User git
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa_work_emu
+
+# enterprise
+Host enterprise
+	HostName github.avaldigitallabs.com
+	User git
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa_work_enterprise
+
+# personal
+Host personal
+ 	HostName github.com
+	User git
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa_personal
+
+# raspberry 
+Host pi 192.168.68.112
+	HostName 192.168.68.112
+	User pi
+	IdentityFile ~/.ssh/id_raspberry_pi
+	ControlMaster auto
+ 	ControlPersist 600
+	PreferredAuthentications = publickey
